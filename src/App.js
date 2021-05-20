@@ -18,9 +18,9 @@ function App() {
           ml="8" size="md" fontWeight='semibold' color="cyan.400">imthepk</Heading>
 
         <Spacer></Spacer>
-        <IconButton icon={<FaLinkedin />} isRound='true' onClick={toggleColorMode}></IconButton>
-        <IconButton ml={2} icon={<FaInstagram />} isRound='true' onClick={toggleColorMode}></IconButton>
-        <IconButton ml={2} icon={<FaGithub />} isRound='true' onClick={toggleColorMode}></IconButton>
+        <IconButton icon={<FaLinkedin />} isRound='true' ></IconButton>
+        <IconButton ml={2} icon={<FaInstagram />} isRound='true' ></IconButton>
+        <IconButton ml={2} icon={<FaGithub />} isRound='true' ></IconButton>
         <IconButton ml={8} icon={isDark ? <FaSun /> : <FaMoon />} isRound='true' onClick={toggleColorMode}></IconButton>
       </Flex>
       <Header></Header>
